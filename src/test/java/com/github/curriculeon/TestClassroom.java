@@ -8,10 +8,6 @@ import java.util.Map;
 import java.util.Set;
 
 public class TestClassroom {
-    @Before
-    public void init(){
-        Instructors.getInstance().personList.clear();
-    }
     @Test
     public void testHostLecture() {
         // given
